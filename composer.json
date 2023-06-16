@@ -1,0 +1,20 @@
+{
+    "name": "ivashkevich/myproject",
+    "type": "project",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "MyProject\\": "src/MyProject/"
+        }
+    },
+    "authors": [
+        {
+            "name": "John Smith",
+            "email": "john@example.com"
+        }
+    ],
+    "require": {
+        "erusev/parsedown": "^1.7",
+      "ext-json": "*"
+    }
+}
